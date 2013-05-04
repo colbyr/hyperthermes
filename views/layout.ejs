@@ -9,6 +9,8 @@
     <!-- JavaScript and stylesheets from your assets folder are included here -->
     <%- assets.tag('/assets/styles/grid.css') %>
     <%- assets.tag('/assets/styles/normalize.css') %>
+    <%- assets.tag('/assets/styles/nv.d3.css') %>
+    <%- assets.tag('/assets/styles/main.css') %>
   </head>
 
   <body class="container">
@@ -21,6 +23,11 @@
 
     <!-- Templates from your view path are included here -->
     <%- assets.templateLibrary() %>
-    <%- assets.js() %>
+
+    <%- assets.tag('/assets/js/data/stacked.js') %>
+    <%- assets.tag('/assets/js/jquery.js') %>
+    <%- assets.tag('/assets/js/d3.js') %>
+    <%- assets.tag('/assets/js/nv.d3.js') %>
+    <%- assets.tag('/assets/js/main.js') %>
   </body>
 </html>

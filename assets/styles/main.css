@@ -1,0 +1,7 @@
+#chart {
+  display: block;
+  overflow: auto;
+}
+  #chart > svg {
+    height: 500px;
+  }
