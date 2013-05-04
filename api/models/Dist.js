@@ -1,20 +1,21 @@
 /*---------------------
-	:: Dist
-	-> model
+  :: Dist
+  -> model
 ---------------------*/
 module.exports = {
 
-	attributes	: {
+  attributes  : {
+    game_id: 'STRING',
 
-		// Simple attribute:
-		// name: 'STRING',
-
-		// Or for more flexibility:
-		// phoneNumber: {
-		//	type: 'STRING',
-		//	defaultValue: '555-555-5555'
-		// }
-		
-	}
+   'w-na': 'INTEGER,
+   'w-eu': 'INTEGER,
+   'w-ap': 'INTEGER,
+   'j-na': 'INTEGER,
+   'j-eu': 'INTEGER,
+   'j-ap': 'INTEGER,
+   'd-na': 'INTEGER,
+   'd-eu': 'INTEGER,
+   'd-ap': 'INTEGER,
+  }
 
 };
