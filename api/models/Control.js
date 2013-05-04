@@ -6,7 +6,7 @@ module.exports = {
 
   attributes  : {
 
-    game_id: 'STRING',
+    'game_id': 'STRING',
 
     'w-na': 'INTEGER',
     'w-eu': 'INTEGER',
