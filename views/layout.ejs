@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title><%- title %></title>
+  <head>
+    <title><%- title %></title>
 
-		<!-- Viewport mobile tag for sensible mobile support -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- JavaScript and stylesheets from your assets folder are included here -->
-		<%- assets.css() %>
-		<%- assets.js() %>
-	</head>
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<body>
-		<%- body %>
+    <!-- JavaScript and stylesheets from your assets folder are included here -->
+    <%- assets.tag('/assets/styles/grid.css') %>
+    <%- assets.tag('/assets/styles/normalize.css') %>
+  </head>
 
-		<!-- Templates from your view path are included here -->
-		<%- assets.templateLibrary() %>
-	</body>
+  <body class="container">
+
+    <div class="row">
+
+      <%- body %>
+
+    </div>
+
+    <!-- Templates from your view path are included here -->
+    <%- assets.templateLibrary() %>
+    <%- assets.js() %>
+  </body>
 </html>
