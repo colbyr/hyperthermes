@@ -1,20 +1,15 @@
 /*---------------------
-	:: Profit
-	-> model
+  :: Profit
+  -> model
 ---------------------*/
 module.exports = {
 
-	attributes	: {
-
-		// Simple attribute:
-		// name: 'STRING',
-
-		// Or for more flexibility:
-		// phoneNumber: {
-		//	type: 'STRING',
-		//	defaultValue: '555-555-5555'
-		// }
-		
-	}
+  attributes  : {
+    game_id: 'STRING',
+    profit: 'INTEGER',
+    percent_of_max: 'INTEGER',
+    cumulative_profit: 'INTEGER',
+    percent_of_max_cumulative: 'INTEGER'
+  }
 
 };
