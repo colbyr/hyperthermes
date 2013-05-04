@@ -8,7 +8,8 @@ module.exports = {
     'profit': 'INTEGER',
     'w-cost': 'INTEGER',
     'j-cost': 'INTEGER',
-    'd-cost': 'INTEGER'
+    'd-cost': 'INTEGER',
+    'timestamp': 'INTEGER'
   }
 
 };
